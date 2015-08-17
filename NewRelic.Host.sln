@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRelic.Host", "NewRelic.Host\NewRelic.Host.csproj", "{6B9846E6-7D9E-41F5-B36C-BF1F367A7D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRelic.WebJob", "NewRelic.WebJob\NewRelic.WebJob.csproj", "{DAFA965D-DD11-439D-90BA-FAF805D20064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B9846E6-7D9E-41F5-B36C-BF1F367A7D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9846E6-7D9E-41F5-B36C-BF1F367A7D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9846E6-7D9E-41F5-B36C-BF1F367A7D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9846E6-7D9E-41F5-B36C-BF1F367A7D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA965D-DD11-439D-90BA-FAF805D20064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFA965D-DD11-439D-90BA-FAF805D20064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFA965D-DD11-439D-90BA-FAF805D20064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFA965D-DD11-439D-90BA-FAF805D20064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

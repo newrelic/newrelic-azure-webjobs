@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension xmlns="urn:newrelic-extension">
+  <instrumentation>
+    <tracerFactory name="NewRelic.Agent.Core.Tracer.Factories.BackgroundThreadTracerFactory">
+      <match assemblyName="NewRelic.WebJob" className="NewRelic.WebJob.Functions">
+        <exactMethodMatcher methodName="ProcessQueueMessage" />
+      </match>
+    </tracerFactory>
+  </instrumentation>
+</extension>
