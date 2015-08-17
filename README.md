@@ -10,6 +10,8 @@ See the docs under "Install using the Site Extension from the SCM site"
 
 **(3)** Get your license key (browse to https://rpm.newrelic.com/accounts/[accountId] after logging in - the license key will appear on the right side)
 
+![Alt text](/Readme_Assets/screen account settings license key_0.png?raw=true "license key")
+
 **(4)** In the app.config of the webjob add the following appsetting
 
 ```
@@ -72,7 +74,7 @@ The default configuration for transactions being recorded is **2 seconds**. Many
 You might want to set this value to something like **.10** (which is equivalent to 100 ms).
 
 ```
-<transactionTracer enabled="true" transactionThreshold=".10" stackTraceThreshold="1" recordSql="obfuscated" explainEnabled="true" explainThreshold="500" />
+<transactionTracer enabled="true" transactionThreshold=".1" stackTraceThreshold="1" recordSql="obfuscated" explainEnabled="true" explainThreshold="500" />
 ```
 
 The best way to set this value is to (there is an example of this in the source in this repository):
@@ -84,6 +86,6 @@ Site >> wwwroot >> newrelic >> download newrelic.config
 
 This will allow the web site extension to take what you have put in this folder and merge / override the default content from the extension itself.
 
-If you want to take advantage of some of the Agent APIs in your web job simply install the New Relic Agent API nuget package into your project: 
+If you want to take advantage of some of the [Agent APIs](https://docs.newrelic.com/docs/agents/net-agent/features/net-agent-api) in your web job simply install the [New Relic Agent API nuget package](https://www.nuget.org/packages/NewRelic.Agent.Api/) into your project: 
 
 ``` PM> Install-Package NewRelic.Agent.Api ```
