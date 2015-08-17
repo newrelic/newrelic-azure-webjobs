@@ -6,6 +6,8 @@ This is a demo project that illustrates how to use the New Relic .NET agent to i
 **(1)** Add the New Relic Site Extension to your host site:
 See the docs under "Install using the Site Extension from the SCM site"
 
+![Alt text](/Readme_Assets/site_extensions.png?raw=true "site extension")
+
 **(2)** Restart the Site (notice you will not see anything report to New Relic because we have not added your license key yet)
 
 **(3)** Get your license key (browse to https://rpm.newrelic.com/accounts/[accountId] after logging in - the license key will appear on the right side)
