@@ -4,7 +4,7 @@ This is a demo project that illustrates how to use the New Relic .NET agent to i
 ###Steps
 
 **(1)** Add the New Relic Site Extension to your host site:
-See the docs under "Install using the Site Extension from the SCM site"
+See the docs under "[Install using the Site Extension from the SCM site](https://docs.newrelic.com/docs/agents/net-agent/azure-installation/azure-preview-portal#install-new-relic-azure-webapps)"
 
 ![Alt text](/Readme_Assets/site_extensions.png?raw=true "site extension")
 
