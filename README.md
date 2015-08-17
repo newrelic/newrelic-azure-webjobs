@@ -8,13 +8,11 @@ See the docs under "[Install using the Site Extension from the SCM site](https:/
 
 ![Alt text](/Readme_Assets/site_extensions.png?raw=true "site extension")
 
-**(2)** Restart the Site (notice you will not see anything report to New Relic because we have not added your license key yet)
-
-**(3)** Get your license key (browse to https://rpm.newrelic.com/accounts/[accountId] after logging in - the license key will appear on the right side)
+**(2)** Get your license key (browse to https://rpm.newrelic.com/accounts/[accountId] after logging in - the license key will appear on the right side)
 
 ![Alt text](/Readme_Assets/screen account settings license key_0.png?raw=true "license key")
 
-**(4)** In the app.config of the webjob add the following appsetting
+**(3)** In the app.config of the webjob add the following appsetting
 
 ```
 <configuration>
@@ -27,7 +25,7 @@ See the docs under "[Install using the Site Extension from the SCM site](https:/
 
 ```
 
-**(5)** Finally add some instrumentation (i.e. help the agent look for what you feel is important to monitor)
+**(4)** Add some instrumentation (i.e. help the agent look for what you feel is important to monitor)
 
  - In the webjob add a folder and file: newrelic\extensions\\[someuniquename].xml
  - Make sure it's Build action is Content
@@ -65,7 +63,7 @@ The content in the xml instrumentation file will look like:
 </extension>
 ```
 
-**(6)** Restart your Host site
+**(5)** Finally, restart your Host site
 
 
 ###Some things to note:
