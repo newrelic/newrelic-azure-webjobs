@@ -89,3 +89,7 @@ This will allow the web site extension to take what you have put in this folder 
 If you want to take advantage of some of the [Agent APIs](https://docs.newrelic.com/docs/agents/net-agent/features/net-agent-api) in your web job simply install the [New Relic Agent API nuget package](https://www.nuget.org/packages/NewRelic.Agent.Api/) into your project: 
 
 ``` PM> Install-Package NewRelic.Agent.Api ```
+
+#Guidelines for contributing
+
+Please read the [guidelines for contributing](GUIDELINES_FOR_CONTRIBUTING.md) to make sure you and others have an amazing experience when giving back to OSS. 
